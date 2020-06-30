@@ -37,7 +37,6 @@
                                 class="fa fa-address-card fa-lg"></span>
                             Contact</a></li>
                 </ul>
-                <!-- utilise le meme modele pour les boutons de la carte de time and date-->
                 <span class="navbar-text ml-auto">
                     <a data-toggle="modal" data-target="#loginModal">
                         <span class="fa fa-sign-in"></span> Login
@@ -103,7 +102,7 @@
                 </div>
                 <div class="col-12 col-sm-3">
                     <a href="#reserveBasket" role="button" class="btn btn-sm bg-warning" data-toggle="tooltip"
-                        data-html="true" title="Or Call us at <br><strong>+ 987 6543 2100</strong>">
+                        data-html="true" title="Or Call us at + 987 6543 2100">
                         Reserve your baskets
                     </a>
                 </div>
@@ -150,7 +149,7 @@
                     </div>
                 </div>
             </div>
-
+        </div>
             <div class="row row-content align-items-center flex-row-reverse">
                 <div class="col-sm-4 col-md-3">
                     <h3>Meet our Specialists</h3>
@@ -167,7 +166,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
 
         <div class="row row-content justify-content-center align-items-center">
             <div class="col-12 col-sm-8">
@@ -177,7 +176,7 @@
                         <form>
                             <!--Number of Basket Line-->
                             <div class="form-group row">
-                                <label class="col-12 col-sm-3 col-form-label">
+                                <label id="reserveBasket" class="col-12 col-sm-3 col-form-label">
                                     Number of Baskets
                                 </label>
                                 <div class="col col-sm">
@@ -224,7 +223,6 @@
                                 <label class="col-12 col-sm-3 col-form-label">
                                     Date and Time
                                 </label>
-
                                 <div class=" input-group col-12 col-sm-4">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="date">
@@ -242,15 +240,12 @@
                                     <input type="time" class="form-control" placeholder="time" id="timeInput">
                                 </div>
                             </div>
-
                             <button type="submit" class="btn btn-primary btn-sm col-sm-offset-2">Reserve</button>
                         </form>
-
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
 
